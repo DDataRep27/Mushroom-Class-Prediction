@@ -3,6 +3,7 @@
 import pandas as pd
 import streamlit as st 
 from pickle import load
+import sklearn
 from PIL import Image
 
 #Title of web page
