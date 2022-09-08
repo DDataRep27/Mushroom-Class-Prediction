@@ -82,3 +82,6 @@ if st.button('Predict'):
         bad  = Image.open("cross.jpg")
         st.image(bad)
 
+if __name__=='__user_input_features__':
+    user_input_features()
+
