@@ -44,7 +44,6 @@ cymem==2.0.6
 cytoolz==0.11.0
 
 
-datashape==0.5.4
 dateparser==1.1.1
 
 et-xmlfile==1.1.0
