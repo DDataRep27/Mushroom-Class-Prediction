@@ -77,8 +77,6 @@ jupyter-highlight-selected-word==0.2.0
 jupyter-latex-envs==1.4.6
 jupyter-nbextensions-configurator==0.5.0
 
-keras==2.9.0
-Keras-Preprocessing==1.1.2
 
 langcodes==3.3.0
 
@@ -165,9 +163,6 @@ sklearn-pandas==2.2.0
 smart-open==5.2.1
 smmap==5.0.0
 
-spacy==3.4.1
-spacy-legacy==3.0.9
-spacy-loggers==1.0.3
 
 
 srsly==2.4.4
@@ -179,15 +174,7 @@ tables==3.6.1
 tabulate==0.8.9
 TBB==0.2
 
-tensorboard==2.9.1
-tensorboard-data-server==0.6.1
-tensorboard-plugin-wit==1.8.1
-tensorflow==2.9.1
-tensorflow-estimator==2.9.0
-tensorflow-io-gcs-filesystem==0.26.0
-termcolor==1.1.0
 
-textblob==0.17.1
 
 textwrap3==0.9.2
 thinc==8.1.0
@@ -199,16 +186,12 @@ tzlocal==4.2
 
 validators==0.20.0
 
-wasabi==0.10.1
+
 
 webencodings==0.5.1
 
-win-unicode-console==0.5
-wincertstore==0.2
-wordcloud==1.8.2.2
+
 
 xgboost==1.6.1
 
-xlwings==0.24.9
 
-zict==2.0.0
