@@ -32,8 +32,6 @@ certifi==2021.10.8
 
 chevron==0.14.0
 
-clyent==1.2.2
-
 commonmark==0.9.1
 comtypes==1.1.10
 conda==4.12.0
