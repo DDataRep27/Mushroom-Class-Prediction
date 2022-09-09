@@ -10,8 +10,6 @@ matplotlib-venn==0.11.7
 pyls-spyder==0.4.0
 
 scikit-learn==1.1.1
-scikit-learn-intelex==2021.20220215.102710
-
 
 sklearn-pandas==2.2.0
 
