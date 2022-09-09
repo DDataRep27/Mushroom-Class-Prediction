@@ -16,6 +16,7 @@ autograd-gamma==0.5.0
 
 backports.weakref==1.0.post1
 
+
 bioinfokit==2.0.8
 
 bkcharts==0.2
@@ -62,6 +63,8 @@ gast==0.4.0
 gitdb==4.0.9
 GitPython==3.1.27
 
+google-auth-oauthlib==0.4.6
+
 google-pasta==0.2.0
 
 idna==2.10
@@ -93,7 +96,11 @@ llvmlite==0.38.0
 matplotlib-venn==0.11.7
 mccabe==0.6.1
 
+mkl-fft==1.3.1
+
 mkl-service==2.4.0
+
+mpmath==1.2.1
 
 munkres==1.1.4
 murmurhash==1.0.7
@@ -101,6 +108,8 @@ mypy-extensions==0.4.3
 navigator-updater==0.2.1
 
 oauthlib==3.2.0
+
+opt-einsum==3.3.0
 
 pathspec==0.7.0
 pathy==0.6.2
@@ -131,6 +140,9 @@ pypiwin32==223
 pyreadline==2.1
 
 pytest==7.1.1
+
+python-lsp-jsonrpc==1.0.0
+python-lsp-server==1.2.4
 
 pytz==2021.3
 pytz-deprecation-shim==0.1.0.post0
@@ -163,6 +175,7 @@ smmap==5.0.0
 spacy==3.4.1
 spacy-legacy==3.0.9
 spacy-loggers==1.0.3
+
 
 srsly==2.4.4
 
@@ -206,4 +219,3 @@ xgboost==1.6.1
 xlwings==0.24.9
 
 zict==2.0.0
-
