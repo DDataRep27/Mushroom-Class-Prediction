@@ -99,7 +99,6 @@ mpmath==1.2.1
 munkres==1.1.4
 murmurhash==1.0.7
 mypy-extensions==0.4.3
-navigator-updater==0.2.1
 
 oauthlib==3.2.0
 
