@@ -34,7 +34,7 @@ chevron==0.14.0
 
 commonmark==0.9.1
 comtypes==1.1.10
-conda==4.12.0
+
 conda-build==3.21.8
 
 conda-verify==3.4.2
