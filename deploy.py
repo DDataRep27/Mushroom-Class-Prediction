@@ -12,12 +12,7 @@ st.title("Welcome to Mushroom Prediction")
 #Image on webpage
 img = Image.open("msh.jpg")
 st.image(img)
-
-#Audio
-
-#audio_bad   = open('bad.mp3', 'rb')
-
-#audio_badr  = audio_badr.read()                  
+                  
 
 #Title for sidebar
 st.sidebar.title('User Input Parameters')
@@ -81,15 +76,19 @@ if st.button('Predict'):
     st.header('Predicted Result:')
     if result[0]=="e":
         st.success("Mushroom is fit for consumption!!")
+        #audio_good  = open('good.mp3', 'rb')
+        #audio_goodr = audio_good.read()
+        #st.audio(audio_goodr, format='audio/mp3')
         good = Image.open("gdl.jpg")
         st.image(good)
-        audio_good  = open('good.mp3', 'rb')
-        audio_goodr = audio_good.read()
-        st.audio(audio_goodr, format='audio/mp3', auto_play=True)
+        
         
         
     else:
         st.error('Poisonous Mushroom!!', icon="🚨")
+        #audio_bad   = open('bad.mp3', 'rb')
+        #audio_badr  = audio_badr.read()
+        #st.audio(audio_badr, format='audio/mp3')
         bad  = Image.open("cross.jpg")
         st.image(bad)
         
