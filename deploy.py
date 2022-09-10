@@ -84,8 +84,8 @@ if st.button('Predict'):
         good = Image.open("gdl.jpg")
         st.image(good)
         audio_good  = open('good.mp3', 'rb')
-        #audio_goodr = audio_good.read()
-        st.audio(audio_goodr, format='audio/mp3')
+        audio_goodr = audio_good.read()
+        st.audio(audio_goodr, format='audio/mp3', auto_play=True)
         
         
     else:
