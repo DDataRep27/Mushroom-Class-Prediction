@@ -14,10 +14,10 @@ img = Image.open("msh.jpg")
 st.image(img)
 
 #Audio
-audio_good  = open('good.mp3', 'rb')
-audio_bad   = open('bad.mp3', 'rb')
-audio_goodr = audio_good.read()
-audio_badr  = audio_badr.read()                  
+
+#audio_bad   = open('bad.mp3', 'rb')
+
+#audio_badr  = audio_badr.read()                  
 
 #Title for sidebar
 st.sidebar.title('User Input Parameters')
@@ -83,6 +83,8 @@ if st.button('Predict'):
         st.success("Mushroom is fit for consumption!!")
         good = Image.open("gdl.jpg")
         st.image(good)
+        audio_good  = open('good.mp3', 'rb')
+        audio_goodr = audio_good.read()
         st.audio(audio_goodr, format='audio/mp3')
         
         
