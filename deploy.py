@@ -15,7 +15,7 @@ st.image(img)
 
 #Audio
 audio_good  = open('good.mp3', 'rb')
-audio_bad   = open('bad.mp3', 'rb)
+audio_bad   = open('bad.mp3', 'rb')
 audio_goodr = audio_good.read()
 audio_badr  = audio_badr.read()                  
 
