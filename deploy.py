@@ -72,7 +72,7 @@ model = load(open('Mushroom_intelligence.pkl', 'rb'))
 result = model.predict(df)
 
 if st.button('Predict'):
-    st.balloons()
+    st.snow()
     st.header('Predicted Result:')
     if result[0]=="e":
         st.success("Mushroom is fit for consumption!!", icon="✅")
