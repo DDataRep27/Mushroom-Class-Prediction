@@ -75,7 +75,7 @@ if st.button('Predict'):
     #st.balloons()
     st.header('Predicted Result:')
     if result[0]=="e":
-        st.success("Mushroom is fit for consumption!!")
+        st.success("Mushroom is fit for consumption!!", icon="✅")
         #audio_good  = open('good.mp3', 'rb')
         #audio_goodr = audio_good.read()
         #st.audio(audio_goodr, format='audio/mp3')
@@ -85,7 +85,7 @@ if st.button('Predict'):
         
         
     else:
-        st.error('Poisonous Mushroom!!', icon="🚨")
+        st.error('Poisonous Mushroom!!', icon="⚠️")
         #audio_bad   = open('bad.mp3', 'rb')
         #audio_badr  = audio_badr.read()
         #st.audio(audio_badr, format='audio/mp3')
