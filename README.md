@@ -9,5 +9,6 @@
 
 
 **Successfully build the model, and deployed on streamlit-cloud**
-*Below is the link:
+
+*Find the link below:*
 https://ddatarep27-mushroom-class-prediction-deploy-vvgdbc.streamlitapp.com/
