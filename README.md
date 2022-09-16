@@ -5,3 +5,9 @@
 
 # Problem Statement
 **In this project, we will examine the data and create a machine learning algorithm that will detect if the mushroom is edible or poisonous by its specifications like cap shape, cap color, gill color, etc. using different classifiers.**
+
+
+
+**Successfully build the model, and deployed on streamlit-cloud**
+*Below is the link:
+https://ddatarep27-mushroom-class-prediction-deploy-vvgdbc.streamlitapp.com/
